@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: multiplayer-game
+    env: node
+    plan: free
+    buildCommand: npm.cmd install
+    startCommand: npm.cmd start
